@@ -1,5 +1,5 @@
 import { useState, useCallback, useMemo } from 'react';
-import { KanbanTask, KanbanColumn, KanbanViewProps } from '@/components/KanbanBoard/KanbanBoard.types';
+import { KanbanTask, KanbanColumn } from '@/components/KanbanBoard/KanbanBoard.types';
 import { reorderTasks, moveTaskBetweenColumns } from '@/utils/column.utils';
 
 export const useKanbanBoard = (initialColumns: KanbanColumn[], initialTasks: Record<string, KanbanTask>) => {

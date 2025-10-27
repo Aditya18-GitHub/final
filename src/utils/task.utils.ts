@@ -44,7 +44,7 @@ export const formatDate = (date: Date): string => {
  * Gets short priority name
  */
 export const getPriorityLabel = (priority?: string): string => {
-  return priority?.charAt(0).toUpperCase() + priority?.slice(1) || 'Medium';
+  return priority ? priority.charAt(0).toUpperCase() + priority.slice(1) : 'Medium';
 };
 
 /**

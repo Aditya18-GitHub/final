@@ -218,7 +218,7 @@ MIT
 
 ## 👤 Contact
 
-[Your email]
+heyadityaofficial@gmail.com
 
 ---
 

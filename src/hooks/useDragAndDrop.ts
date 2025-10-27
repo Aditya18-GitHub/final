@@ -12,7 +12,7 @@ export const useDragAndDrop = () => {
   });
   
   const handleDragStart = useCallback(
-    (e: React.DragEvent | React.KeyboardEvent, taskId: string, columnId: string, index: number) => {
+    (_e: React.DragEvent | React.KeyboardEvent, taskId: string, columnId: string, index: number) => {
       setDragState({
         isDragging: true,
         draggedId: taskId,

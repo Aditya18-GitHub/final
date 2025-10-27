@@ -1,5 +1,5 @@
 import React, { memo, useRef, useState } from 'react';
-import { KanbanColumn as KanbanColumnType, KanbanTask, KanbanViewProps } from './KanbanBoard.types';
+import { KanbanColumn as KanbanColumnType, KanbanTask } from './KanbanBoard.types';
 import { KanbanCard } from './KanbanCard';
 import { Button } from '../primitives/Button';
 import { getColumnStatusText, getWipWarningStatus } from '@/utils/column.utils';

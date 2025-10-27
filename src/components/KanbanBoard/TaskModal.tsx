@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { KanbanTask, KanbanColumn } from './KanbanBoard.types';
 import { Modal } from '../primitives/Modal';
 import { Button } from '../primitives/Button';
-import { createTask } from '@/utils/task.utils';
-import clsx from 'clsx';
 
 interface TaskModalProps {
   isOpen: boolean;

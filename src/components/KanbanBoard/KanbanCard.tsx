@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { KanbanTask } from './KanbanBoard.types';
 import { Avatar } from '../primitives/Avatar';
-import { getPriorityColor, formatDate, isOverdue, getInitials } from '@/utils/task.utils';
+import { getPriorityColor, formatDate, isOverdue } from '@/utils/task.utils';
 import clsx from 'clsx';
 
 interface KanbanCardProps {

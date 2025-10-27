@@ -14,7 +14,7 @@ export const KanbanBoard: React.FC<KanbanViewProps> = ({
   onTaskDelete,
 }) => {
   const [columns, setColumns] = useState(initialColumns);
-  const [tasks, setTasks] = useState(initialTasks);
+  const [tasks] = useState(initialTasks);
   const [selectedTask, setSelectedTask] = useState<KanbanTask | null>(null);
   const [isTaskModalOpen, setIsTaskModalOpen] = useState(false);
   const [targetColumnId, setTargetColumnId] = useState<string | null>(null);
